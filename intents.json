@@ -1,0 +1,55 @@
+{"intents":
+[
+            {
+             "tag":"greeting",
+             "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+             "responses":["hello","hey!","what can i do for you?","hi!!,how can i help u?"]
+            },
+            {
+             "tag":"goodbye",
+             "patterns": ["cya","see you later","goodbye","have a good day","bye","cao","see ya"],
+             "responses":["have a nice day","goodbye","ok Bye!!"]
+            },
+            {
+             "tag":"age",
+             "patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+             "responses":["I get reborn after every compilation","I am a machine...."]
+            },
+            {
+              "tag":"Location",
+             "patterns": ["where are you?","where is arundati hospital located?","where is this hospital?","how can i reach arundati hospital","location of arundati hospital","location"],
+             "responses":["Arundati Hospital : Dundigal, Gandimaisamma Medchal-Malkajgiri, Dist, Hyderabad, Telangana 500043"]
+            },
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name","ur name?"],
+             "responses":["you can call me AruBot!","i am AruBot!","i am AruBot your medical assistant"]
+            },
+
+  {
+    "tag":"about",
+    "patterns": ["tell me about yourself?", "tell me about?", "about you?", "about yourself"],
+    "responses":["Arundathi Institute of Medical Sciences and Hospital is situated in a sprawling campus and has a total built-up area of 10 Acres comprising of big building. The College is equipped with Air Conditioned Lecture Halls with multimedia audio-visual aids and well equipped demonstration rooms and Laboratories attached with a 350 beded Teaching Hospital located at Dundigal, Medchal-Malkajgiri District. "]
+  },
+  {
+    "tag":"founder",
+    "patterns": ["founder of arundati?","founder","who started arundati hospital?"],
+    "responses":["Marri Rajashekar Reddy garu is the founder of arundati hospital in the year 2021 which provides free treatment for patients..."]
+  },
+  {
+    "tag":"help line number",
+    "patterns": ["contact number","helpline number","how can i contact arundati hospital?"],
+    "responses":["Phone No's available : 9849255544,8465003255,9985821454"]
+  },
+  {
+    "tag" : "Ground Floor",
+    "patterns" : ["what are the facilities available?","what does the hospital have?","facilities in hospital","facilities"],
+    "responses" : ["Ground Floor : OP/IP Registration,Pharmacy,Emergency,Pediatrics,Gynecology,Radiology,General,Surgery,Urology,OPD Orthopedic,OPD Sample collection,General Medicine,Cardiology,Psychiatry,Virology Lab C,Diabetology OP;1st Floor : Opthalmology,ENT OPD,Dermatology,DentalOPD,Pulmonology,Medical Director,Medical Superintendent,Aministration,Operation Theater Complex,OT-Pharmacy,Dialysis Centre,Surgical ICU Burn ICU Labour Room;2nd Floor : NICU|PICU,MICU|RICU,Cath Lab,Gynecology Ward,ANC Ward,General Medicine ward,Pyschiatry Ward,Pulmonology Ward,Opthalmology Ward;3rd Floor : Central Laboratory,Blood Bank,General Surgery Ward,ENT Ward,Orthopedic Ward,Paediatric Ward,Physical Medicine and Rehabilitation."]
+  },
+  {
+    "tag" : "Speciality",
+    "patterns" : ["dialysis treatment","dialysis","does the hospital provide free dialysis treatment?","free dialysis?","free treatments?"],
+    "responses" : ["The Hospital provides free treatment of dialysis with best quslity Nephrology Care,Ultra Modern Dialysis Machines,Standard Operating Protocols,Sanitized beds & Dialysis Unit,Diet Consultation,Laboratory,Hemodiafiltration"]
+  }
+]}
+        
